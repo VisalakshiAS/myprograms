@@ -20,12 +20,16 @@ int main()
 		{
 			continue;
 		}
+		else if( !( (ch>='A' && ch<='Z') || (ch>='a' && ch<='z') || (ch>='0' && ch<='9') ) )
+		{
+			continue;
+		}
 		else
 		{
 			nst[j] = ch;
 			j++;
 		}
 	}
-	printf("%s\b",nst);
+	printf("%s",nst);
 	return 0;
 }
