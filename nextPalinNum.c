@@ -5,7 +5,8 @@ int rev(int n);
 
 int main()
 {
-	int n,temp,t1,t2,l=0,l1;
+	long int n,temp,t1,t2;
+	int l=0,l1;
 	printf("Enter n...");
 	scanf("%d",&n);
 	
