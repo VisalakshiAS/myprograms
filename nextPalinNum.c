@@ -44,6 +44,10 @@ int main()
 		if(t2 < n)
 		{
 			temp++;
+			if(temp%10 == 0)
+			{
+				t1 = rev(temp);
+			}
 			t2 = temp * pow(10,l/2) + t1;
 		}
 	}
